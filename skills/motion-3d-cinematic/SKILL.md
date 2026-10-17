@@ -31,8 +31,8 @@ render (needs internet once, about 100 MB).
 1. Copy the template into the student's project, never edit the skill folder itself:
    - Mac: `cp -R ~/.claude/skills/motion-3d-cinematic/template ./reel-3d`
    - Windows (PowerShell): `Copy-Item -Recurse $HOME\.claude\skills\motion-3d-cinematic\template .\reel-3d`
-2. `cd reel-3d && npm i` (all versions are pinned in package.json: Remotion 4.0.434, @remotion/three 4.0.434,
-   @remotion/media 4.0.434, @react-three/fiber 8.18.0, three 0.170.0, React 18.3.1). Do not upgrade one package
+2. `cd reel-3d && npm i` (all versions are pinned in package.json: Remotion 4.0.536, @remotion/three 4.0.536,
+   @remotion/media 4.0.536, @react-three/fiber 8.18.0, three 0.170.0, React 18.3.1). Do not upgrade one package
    alone; Remotion packages must all share the exact same version.
 3. Put the student's video in `public/` (for example `public/screen.mp4`).
 4. Preview: `npm run studio` (opens in the browser). Render: see "Render" below.

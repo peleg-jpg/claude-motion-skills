@@ -14,22 +14,19 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@remotion/bundler": "4.0.434",
-    "@remotion/captions": "4.0.434",
-    "@remotion/cli": "4.0.434",
-    "@remotion/google-fonts": "4.0.434",
-    "@remotion/install-whisper-cpp": "4.0.434",
-    "@remotion/media-parser": "4.0.434",
-    "@remotion/renderer": "4.0.434",
+    "@remotion/bundler": "4.0.536",
+    "@remotion/captions": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/google-fonts": "4.0.536",
+    "@remotion/install-whisper-cpp": "4.0.536",
+    "@remotion/media-parser": "4.0.536",
+    "@remotion/renderer": "4.0.536",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "remotion": "4.0.434"
+    "remotion": "4.0.536"
   },
   "devDependencies": {
     "@types/react": "18.3.31",
     "typescript": "5.9.3"
-  },
-  "overrides": {
-    "ws": "8.22.0"
   }
 }
